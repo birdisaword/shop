@@ -44,7 +44,7 @@ $(document).ready(function() {
 
           
           var outputDiv = document.getElementById('itemContainer');
-          outputDiv.innerHTML = itemContainerHTML;
+          outputDiv.innerHTML += itemContainerHTML;
 
         });
     },
