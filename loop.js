@@ -2,6 +2,7 @@
 // some text
 // JOPAAAAAAAAAA
 //xd
+// nastya klass
 $(document).ready(function() {
     $(".btn").click(function(){
          $('.text').text('loading . . .');
