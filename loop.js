@@ -1,5 +1,6 @@
 // item card/////////////////////
 // some text
+// JOPAAAAAAAAAA
 $(document).ready(function() {
     $(".btn").click(function(){
          $('.text').text('loading . . .');
