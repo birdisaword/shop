@@ -1,8 +1,4 @@
-// item card/////////////////////
-// some text
-// JOPAAAAAAAAAA
-//xd
-// nastya klass
+
 $(document).ready(function() {
     $(".btn").click(function(){
          $('.text').text('loading . . .');
@@ -34,16 +30,11 @@ $(document).ready(function() {
 
 
 
-
             itemHTML = '<div class="item_card"><div class="item_photo">' + photo + '</div><div id="item_data"><ul id="item_info"><a class = "itemLink" target="_blank" href = + itemUrl + ><span>' + item + '</span></a>' + brand + price + sale + '</ul></div> <div class="stars-outer"><div class="stars-inner"> </div><div id="button_wrapper"><button type="button" class="button_buy" id="button_buy">buy</button></div></div>';
 
             itemContainerHTML += itemHTML;
           }
 
-
-
-
-    
 
           
           var outputDiv = document.getElementById('itemContainer');
